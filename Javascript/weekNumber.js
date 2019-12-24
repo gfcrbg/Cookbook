@@ -8,7 +8,7 @@ Input: date
 Output: week #
 */
 
-// Javascript
+
 <script>
 Date.prototype.getWeekNumber = function(){  
 var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));  
