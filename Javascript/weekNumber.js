@@ -1,5 +1,11 @@
 /*
-JavaScript and RuleZ
+==========
+JavaScript
+==========
+The user enters the date and the output returns the week #.
+
+Input: date
+Output: week #
 */
 
 // Javascript
@@ -22,7 +28,6 @@ document.getElementById('answerWeek').value = m.toDate().getWeekNumber();
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
-//RuleZ
 Enter Shop date MM-DD-YYYY:
 <br> 
 <input id="dString" value="" onchange= "checkWeek(this)"><br>
