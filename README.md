@@ -1,5 +1,4 @@
 # Cookbook
-Code snippets and such.
 
 Test Environments
 
