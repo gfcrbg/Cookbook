@@ -1,4 +1,5 @@
 # Cookbook
+A compendium of code snippets, resources, and information for programming.
 
 Test Environments
 
