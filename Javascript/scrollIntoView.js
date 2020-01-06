@@ -1,3 +1,12 @@
+/*
+==========
+JavaScript
+==========
+The user clicks on button.  
+The button triggers an event that scrolls the user to a desired location on the page.
+*/
+
+
 Test scrollIntoView
 <br>
 <br>
