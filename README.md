@@ -29,3 +29,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+### GitHub Dark Mode
+
+[Dark Mode Installation](https://github.com/StylishThemes/GitHub-Dark)
