@@ -3,7 +3,7 @@
 JavaScript
 ==========
 The user clicks on button.  
-The button triggers an event that scrolls the user to a desired location on the page.
+The button triggers an event that scrolls the user to a configured location on the page.
 */
 
 
