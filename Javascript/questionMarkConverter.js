@@ -1,3 +1,11 @@
+/*
+
+Input (text1): text that contains '?'
+Trigger (button): User clicks on button "Convert"
+Output (text2): '?' is replaced with '"'
+
+*/
+
 <!DOCTYPE html>
 <htmL>
     <font style= "color: white">
