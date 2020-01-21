@@ -26,7 +26,7 @@ Output (text2): '?' is replaced with '"'
                             <br>
                             <textarea rows= "7" cols= "50" id= "original"></textarea>
                             <br><br><br>
-                            <button onclick="Pegasus()">Convert</button>
+                            <button type="button" onclick="Pegasus()">Convert</button>
                             <br><br><br>
                             B) Modified text:
                             <br>
