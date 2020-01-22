@@ -6,10 +6,11 @@ Output (text2): '?' is replaced with '"'
 
 */
 
+/*
 ----------------------------------------
 Scorecard version
 ----------------------------------------
-
+*/
 
 <left>
 <h1>Question Mark Converter</h1>
@@ -40,11 +41,11 @@ document.getElementById("original").value= text2;
 }
 </script>
 
-
+/*
 ----------------------------------------
 Browser version
 ----------------------------------------
-
+*/
 
 <!DOCTYPE html>
 <htmL>
