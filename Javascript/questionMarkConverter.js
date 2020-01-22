@@ -9,13 +9,13 @@ Output (text2): '?' is replaced with '"'
 <left>
 <h1>Question Mark Converter</h1>
 <br>                            
-1. PASTE affected text into textbox.
+<b>1.</b> PASTE affected text into textbox.
 <br>
-2. CLICK "Convert" button.
+<b>2.</b> CLICK "Convert" button.
 <br>
-3. Converted text appears in textbox. 
+<b>3.</b> Converted text appears in textbox. 
 <br><br>
-NOTE: This will turn ALL question marks into quotations.
+<b>NOTE:</b> This will turn ALL question marks into quotations.
 <br>
 <left>
 <br>
