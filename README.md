@@ -7,6 +7,8 @@ Test Environments
 - Create a scorecard in 'Test Envrion (RuleZ)'
 - Utilize the current scorecard template 'Test Environ (RuleZ): Question Formats Sandbox'.
 
+
+
 ### HTML Guides
 
 Why is HTML important?  
@@ -18,6 +20,7 @@ These websites offer free guides, tutorials, and examples:
 [W3 Schools](https://www.w3schools.com/)
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) 
+
 
 
 ### Markdown
@@ -41,6 +44,9 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+
+
 ### GitHub Dark Mode
 
 [Dark Mode Installation](https://github.com/StylishThemes/GitHub-Dark)
