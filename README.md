@@ -7,16 +7,17 @@ Test Environments
 - Create a scorecard in 'Test Envrion (RuleZ)'
 - Utilize the current scorecard template 'Test Environ (RuleZ): Question Formats Sandbox'.
 
-### Guides
+### HTML Guides
+
+Why is HTML important?  
+The hypertext markup language (HTML) is used to coherently structure information on Sassie scorecards.  
 
 Want to learn HTML?  
 These websites offer free guides, tutorials, and examples:
 
 [W3 Schools](https://www.w3schools.com/)
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-
-Why is HTML important?  The hypertext markup language (HTML) is used to coherently structure information on Sassie scorecards.   
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) 
 
 
 ### Markdown
