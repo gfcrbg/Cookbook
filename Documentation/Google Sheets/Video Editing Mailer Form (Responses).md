@@ -20,19 +20,31 @@ Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 ### [Tab] Emily Turner
-
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 ### [Tab] Chelsea Llewellan
-
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 ### [Tab] Jame Spring
-
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 ### [Tab] Shelby Wideman
-
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 ### [Tab] Manesh Upadhyaya
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
 
+## Google Apps Script
+1. Custom Menu - Ttitle 
+2. Sidebar - Lists instructions.
+
+## Misc.
+The Scout Manager filter must only sort by the scout manager in the respected tab.
 
 
