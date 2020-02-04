@@ -41,10 +41,10 @@ Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms
 
 
 ## Google Apps Script
-1. Custom Menu - Ttitle 
-2. Sidebar - Lists instructions.
+1. Custom Menu 
+2. Sidebar - Contains instructions on how to use the sheet.
 
 ## Misc.
-The Scout Manager filter must only sort by the scout manager in the respected tab.
+The Scout Manager filter must only sort by the name of the scout manager in the respected tab.
 
 
