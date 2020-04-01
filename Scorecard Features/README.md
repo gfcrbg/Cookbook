@@ -12,9 +12,10 @@ This application will reverse the effect and turn questions marks into quotation
 On button click, allows the user to expand or collapse an embed.
 
 ### Scroll Into View
-
+On button click, allows the user to scroll (or jump) to a designated point on the scorecard.
 
 ### Shop Report Dates Matcher
-
+On button click, allows the user to determine if the month of report date and shop date match.
 
 ### Week Number Calculator
+Calculates the week number.
