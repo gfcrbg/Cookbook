@@ -8,3 +8,13 @@ Brief explanation of scorecard features.  Click on each feature, above, for deta
 Converts text affected by a glitch that results in quotation marks converting to question marks.
 This application will reverse the effect and turn questions marks into quotation marks.  
 
+### Collapsible Inline Frames
+
+
+### Scroll Into View
+
+
+### Shop Report Dates Matcher
+
+
+### Week Number Calculator
