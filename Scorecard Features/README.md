@@ -4,9 +4,9 @@ Before you submit a request in Support Tracker, check here first.  Or, submit an
 
 Brief explanation of scorecard features.  Click on each feature, above, for details.
 
-### Question Mark Converter
+`### Question Mark Converter
 Converts text affected by a glitch that results in quotation marks converting to question marks.
-This application will reverse the effect and turn questions marks into quotation marks.  
+This application will reverse the effect and turn questions marks into quotation marks.`
 
 ### Collapsible Inline Frames
 On button click, allows the user to expand or collapse an embed.
