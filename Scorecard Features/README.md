@@ -9,7 +9,7 @@ Converts text affected by a glitch that results in quotation marks converting to
 This application will reverse the effect and turn questions marks into quotation marks.  
 
 ### Collapsible Inline Frames
-
+On button click, allows the user to expand or collapse an embed.
 
 ### Scroll Into View
 
