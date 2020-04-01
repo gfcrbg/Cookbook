@@ -6,8 +6,8 @@ The following is a brief summary of scorecard features.  Click on each feature, 
 
 ### Question Mark Converter
 ```
-Converts text affected by a glitch that results in quotation marks converting to question marks.
-This application will reverse the effect and turn questions marks into quotation marks.
+This application will convert questions marks into quotation marks.
+It's a workaround for a Sassie glitch.
 ```
 
 ### Collapsible Inline Frames
