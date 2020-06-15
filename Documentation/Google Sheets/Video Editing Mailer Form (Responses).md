@@ -7,25 +7,25 @@ Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms
 Last Updated: 6/15/2020
 
 ### [Tab] Main
-1. Cell C3 -  
+1. Cell C3 
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Cory Sunaz!A2:I"))`
 
-2. Cell O3 -
+2. Cell O3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Emily Turner!A2:K"))`
 
-3. Cell AA3 -
+3. Cell AA3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chelsea Lewallen!A2:K"))`
 
-4. Cell AM3 -
+4. Cell AM3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Jamie Spring!A2:K"))`
 
-5. Cell AY3 -
+5. Cell AY3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Shelby Wideman!A2:K"))`
 
-6. Cell BK3 -
+6. Cell BK3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chris Davis!A2:K"))`
 
-7. Cell BW3 - 
+7. Cell BW3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Manesh Upadhyaya!A2:K"))`
 
 ### [Tab] Cory Sunaz
@@ -59,7 +59,7 @@ Last Updated: 6/15/2020
 1. Cell A2 
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Manesh Upadhyaya'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K) - 
 `=IF(E2 = "Manesh Upadhyaya", "SM Notified", " ")`
 
 ## Google Apps Script
