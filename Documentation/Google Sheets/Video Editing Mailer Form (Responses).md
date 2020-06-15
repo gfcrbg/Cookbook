@@ -78,8 +78,8 @@ Last Updated: 6/15/2020
 `=IF(E2 = "Manesh Upadhyaya", "SM Notified", " ")`
 
 ## Google Apps Script
-1. Custom Menu 
-2. Sidebar - Contains instructions on how to use the sheet.
+1. [Custom Menu](https://script.google.com/a/realitybasedgroup.com/d/1zYMVcoi8Mo6qyN3pZASlFiKizXzoAzA1QpDpCto67Z8IzVnMe9scKXuH/edit) 
+2. [Sidebar](https://script.google.com/a/realitybasedgroup.com/d/1zYMVcoi8Mo6qyN3pZASlFiKizXzoAzA1QpDpCto67Z8IzVnMe9scKXuH/edit) - Contains instructions on how to use the sheet.
 
 ## Misc.
 The Scout Manager filter must only sort by the name of the scout manager in the respected tab.
