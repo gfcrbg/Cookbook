@@ -32,49 +32,49 @@ Last Updated: 6/15/2020
 1. Cell A2   
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Cory Sunaz'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Cory Sunaz", "SM Notified", " ")`
 
 ### [Tab] Emily Turner
-1. Cell A2 
+1. Cell A2   
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Emily Turner'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Emily Turner", "SM Notified", " ")`
 
 ### [Tab] Chelsea Llewellan
-1. Cell A2 
+1. Cell A2    
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Chelsea Lewallen'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Chelsea Llewellan", "SM Notified", " ")`
 
 ### [Tab] Jame Spring
-1. Cell A2 
+1. Cell A2   
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Jamie Spring'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Jamie Spring", "SM Notified", " ")`
 
 ### [Tab] Shelby Wideman
-1. Cell A2 
+1. Cell A2   
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Shelby Wideman'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Shelby Wideman", "SM Notified", " ")`
 
 ### [Tab] Chris Davis
-1. Cell A2
+1. Cell A2  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Chris Davis'" )`
 
-2. Cell K2 (column K)
+2. Cell K2 (column K)  
 `=IF(E2 = "Chris Davis", "SM Notified", " ")`
 
 ### [_Hidden_ Tab] Manesh Upadhyaya
-1. Cell A2  
+1. Cell A2    
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Manesh Upadhyaya'" )`
 
-2. Cell K2 (column K)  
+2. Cell K2 (column K)    
 `=IF(E2 = "Manesh Upadhyaya", "SM Notified", " ")`
 
 ## Google Apps Script
