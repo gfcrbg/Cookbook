@@ -5,15 +5,24 @@ Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms
 
 ## Formulas
 
-### [Tab] Master
-1. Cell A2 -  
-`=QUERY(ImportRange("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit?ts=5db07b8b#gid=264954571","Form Responses 1!A2:I" ))`
+### [Tab] Main
+1. Cell C3 -  
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Cory Sunaz!A2:I"))`
 
-2. Cells J2:J - 
-`=IF(ISTEXT(R2), TRIM(R2),IF(ISTEXT(S2), TRIM(S2),IF(ISTEXT(T2), TRIM(T2),IF(ISTEXT(U2), TRIM(U2),IF(ISTEXT(V2), TRIM(V2),IF(ISTEXT(W2), TRIM(W2)))))))`
+2. Cell O3 -
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Emily Turner!A2:K"))`
 
-3. Cells K2:K - 
-`=IF(L2 = "SM Notified", "SM Notified", IF(L2 = "SM Addressed","SM Addressed", IF(M2 = "SM Notified", "SM Notified", IF(M2 = "SM Addressed","SM Addressed", IF(N2 = "SM Notified", "SM Notified", IF(N2 = "SM Addressed","SM Addressed", IF(O2 = "SM Notified", "SM Notified", IF(O2 = "SM Addressed","SM Addressed", IF(P2 = "SM Notified", "SM Notified",IF(P2 = "SM Addressed","SM Addressed", IF(Q2 = "SM Notified", "SM Notified", IF(Q2 = "SM Addressed","SM Addressed"))) )))))))))`
+3. Cell AA3 -
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chelsea Lewallen!A2:K"))`
+
+4. Cell AM3 -
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Jamie Spring!A2:K"))`
+
+5. Cell AY3 -
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Shelby Wideman!A2:K"))`
+
+6. Cell BK3 -
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chris Davis!A2:K"))`
 
 ### [Tab] Cory Sunaz
 1. Cell A2 
