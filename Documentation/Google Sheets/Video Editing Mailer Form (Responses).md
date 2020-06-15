@@ -4,6 +4,7 @@
 Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms/d/e/1FAIpQLSe8E5jPB79x-8maTPPbFIm5DOgMAB0QmNgnr9bEDxTHRcyZog/viewform)
 
 ## Formulas
+Last Updated: 6/15/2020
 
 ### [Tab] Main
 1. Cell C3 -  
@@ -23,6 +24,9 @@ Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms
 
 6. Cell BK3 -
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chris Davis!A2:K"))`
+
+7. Cell BW3 - 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Manesh Upadhyaya!A2:K"))`
 
 ### [Tab] Cory Sunaz
 1. Cell A2 
