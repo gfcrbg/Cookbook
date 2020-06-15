@@ -48,10 +48,19 @@ Last Updated: 6/15/2020
 1. Cell A2 
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
 
-### [Tab] Manesh Upadhyaya
-1. Cell A2 
-`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571","Form Responses 1!A2:I"))`
+### [Tab] Chris Davis
+1. Cell A2
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Chris Davis'" )`
 
+2. Cell K2 (column K)
+`=IF(E2 = "Manesh Upadhyaya", "SM Notified", " ")`
+
+### [Tab] _Hidden_ Manesh Upadhyaya
+1. Cell A2 
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Manesh Upadhyaya'" )`
+
+2. Cell K2 (column K)
+`=IF(E2 = "Manesh Upadhyaya", "SM Notified", " ")`
 
 ## Google Apps Script
 1. Custom Menu 
