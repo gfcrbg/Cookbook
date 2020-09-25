@@ -2,8 +2,8 @@
 Will clear designated cells on button click.
 */
 
-function inputClear() {
+function clear() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet();
-  var range = sheet.getRange("A1:A28");
+  var range = sheet.getRange(" "); // enter cell range
   range.clear({formatOnly: false, contentsOnly: true});
 }
