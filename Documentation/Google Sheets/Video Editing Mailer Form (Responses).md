@@ -4,7 +4,7 @@
 Linked to Google Form: [Video Editing Mailer Form](https://docs.google.com/forms/d/e/1FAIpQLSe8E5jPB79x-8maTPPbFIm5DOgMAB0QmNgnr9bEDxTHRcyZog/viewform)
 
 ## Formulas
-Last Updated: 6/17/2020
+Last Updated: 12/15/2020
 
 ### [Tab] Main
 1. Cell C3   
@@ -25,10 +25,13 @@ Last Updated: 6/17/2020
 6. Cell BK3  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chris Davis!A2:K"))`
 
-7. Cell BW3  
-`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Veronica Strother!A2:K"))`
+7. Cell BW3
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Travis English!A2:K"))`
 
 8. Cell CI3  
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Veronica Strother!A2:K"))`
+
+9. Cell CU3  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Manesh Upadhyaya!A2:K"))`
 
 ### [Tab] Cory Sunaz
@@ -73,7 +76,14 @@ Last Updated: 6/17/2020
 2. Cell K2 (column K)  
 `=IF(E2 = "Chris Davis", "SM Notified", " ")`
 
-### [Tab] Veronica Strother
+### [Tab] Travis English
+1. Cell A2  
+`=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Travis English'" )`
+
+2. Cell K2 (column K)  
+`=IF(E2 = "Travis English", "SM Notified", " ")`
+
+### [_Hidden_ Tab] Veronica Strother
 1. Cell A2  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Veronica Strother'" )`
 
