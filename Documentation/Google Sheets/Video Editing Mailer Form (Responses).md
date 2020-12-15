@@ -77,7 +77,7 @@ Last Updated: 12/15/2020
 `=IF(E2 = "Chris Davis", "SM Notified", " ")`
 
 ### [Tab] Travis English
-1. Cell A2  
+1. Cell A2    
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Form Responses 1!A2:I"), "select * where Col5 = 'Travis English'" )`
 
 2. Cell K2 (column K)  
