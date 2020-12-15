@@ -25,7 +25,7 @@ Last Updated: 12/15/2020
 6. Cell BK3  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Chris Davis!A2:K"))`
 
-7. Cell BW3
+7. Cell BW3  
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Travis English!A2:K"))`
 
 8. Cell CI3    
