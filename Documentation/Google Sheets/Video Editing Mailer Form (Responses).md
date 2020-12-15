@@ -28,7 +28,7 @@ Last Updated: 12/15/2020
 7. Cell BW3
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Travis English!A2:K"))`
 
-8. Cell CI3  
+8. Cell CI3    
 `=QUERY(IMPORTRANGE("https://docs.google.com/spreadsheets/d/1a3xgQz9oYaODT5mjT5B4cX-65b9XCnGxMABjk9ETCew/edit#gid=264954571", "Veronica Strother!A2:K"))`
 
 9. Cell CU3  
