@@ -7,8 +7,9 @@ Test Environments
 - Create a scorecard in 'Test Envrion (RuleZ)'
 - Utilize the current scorecard template 'Test Environ (RuleZ): Question Formats Sandbox'.
 
-
-
+  
+  
+  
 ### HTML Guides
 
 Why is HTML important?  
