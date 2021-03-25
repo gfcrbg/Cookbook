@@ -4,8 +4,7 @@ A compilation of web scraping scripts that can be snipped, templated, or modifie
 #
 ### Documentation
 All files were written in the Python programming language.  
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+[](https://res.cloudinary.com/teepublic/image/private/s--kWYh2vbW--/t_Preview/b_rgb:000000,c_limit,f_jpg,h_630,q_90,w_630/v1520050660/production/designs/2416585_0.jpg)
 
 ###### Learn to use Python:  
    - [Python](https://www.python.org/)  
