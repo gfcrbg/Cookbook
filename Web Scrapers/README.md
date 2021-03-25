@@ -1,9 +1,9 @@
 # Web Scrapers
 
-## Overview
+### Overview
 A compilation of web scraping scripts that be snipped, templated, or modified.
 
-## Documentation
+### Documentation
 Programming language:  
 Python  
   
