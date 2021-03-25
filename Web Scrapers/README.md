@@ -25,12 +25,20 @@ All files were written in the Python programming language.
   
   
 ###### Packages:
-- Beautiful Soup
-- Requests
-- Pandas
-- CSV
-- Time
-- JSON
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
+HTML and XML parser.  
+
+- [Requests](https://requests.readthedocs.io/en/master/)  
+Makes HTTP requests.  
+
+- [Pandas](https://pandas.pydata.org/)  
+Data analysis and manipulation tool.  
+
+- [Time](https://docs.python.org/3/library/time.html)  
+Offers time-related functions.  
+
+- [JSON](https://docs.python.org/3/library/json.html)  
+Data interchange format.
 
 
 
