@@ -3,10 +3,12 @@ A compilation of web scraping scripts that can be snipped, templated, or modifie
 
 #
 ### Documentation
-All of the files were written in the Python programming language.  
-Primary Python documentation.  
+All files were written in the Python programming language.   
 
 ###### Learn to use Python:  
+   - [Python](https://www.python.org/)  
+   Language documentation.  
+   
    - [W3 Schools](https://www.w3schools.com/python/)    
    Free Python lessons.  Excellent learning source.  
    
