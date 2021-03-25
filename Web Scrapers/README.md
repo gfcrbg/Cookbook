@@ -11,7 +11,7 @@ Learn to use Python.
    Free Python lessons.  Excellent learning source.  
    
    - [Code Wars](www.codewars.com)  
-   Use what you've learned to complete exercieses.  
+   Use what you've learned to complete exercises.  
    
    - [r/Python](https://www.reddit.com/r/Python/)   
    Pyhton Reddit community.  
