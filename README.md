@@ -27,7 +27,7 @@ These websites offer free guides, tutorials, and examples:
 
 ### Markdown
 
-[Markdown](https://guides.github.com/features/mastering-markdown/) is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#relative-links) is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
