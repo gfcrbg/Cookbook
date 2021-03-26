@@ -18,7 +18,7 @@ Free Python lessons.  Excellent learning source.
 Use what you've learned to complete exercises.  
    
 - [r/Python](https://www.reddit.com/r/Python/)   
-Pyhton Reddit community.  
+Python Reddit community.  
    
 - [Visual Studio Code](https://code.visualstudio.com/)   
 Microsoft's free text editor.      
