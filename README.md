@@ -1,16 +1,14 @@
 # Cookbook
 A compendium of code snippets, resources, and information for programming.
 
-Test Environments
+#
+### RuleZ Test Environments
 
 - UAT
 - Create a scorecard in 'Test Envrion (RuleZ)'
 - Utilize the current scorecard template 'Test Environ (RuleZ): Question Formats Sandbox'.
 
-# 
-
-  
-  
+#   
 ### HTML Guides
 
 **Why is HTML important?**  
@@ -24,7 +22,6 @@ These websites offer free guides, tutorials, and examples:
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) 
 
 #
-
 ### Markdown
 
 [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#relative-links) is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
