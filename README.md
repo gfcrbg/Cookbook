@@ -13,10 +13,10 @@ Test Environments
   
 ### HTML Guides
 
-Why is HTML important?  
+**Why is HTML important?**  
 The hypertext markup language (HTML) is used to coherently structure information on Sassie scorecards.  
 
-Want to learn HTML?  
+**Want to learn HTML?**  
 These websites offer free guides, tutorials, and examples:
 
 [W3 Schools](https://www.w3schools.com/)
