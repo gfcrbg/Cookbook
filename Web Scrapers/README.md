@@ -2,6 +2,13 @@
 A compilation of web scraping scripts that can be snipped, templated, or modified.
 
 #
+### Fundamentals  
+Web scraping is divided into three major components:  
+1. Request  
+2. Parse  
+3. Output
+
+#
 ### Documentation
 All files were written in the Python programming language.  
 
@@ -39,11 +46,4 @@ Offers time-related functions.
 
 - [JSON](https://docs.python.org/3/library/json.html)  
 Data interchange format.
-
-#
-### Fundamentals  
-Web scraping is divided into three major components:  
-1. Request  
-2. Parse  
-3. Output
 
