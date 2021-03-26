@@ -4,9 +4,9 @@ A compilation of web scraping scripts that can be snipped, templated, or modifie
 #
 ### Fundamentals  
 Web scraping is divided into three major components:  
-1. Request  
-2. Parse  
-3. Output
+1. **Request**  
+2. **Parse**  
+3. **Output**
 
 #
 ### Documentation
