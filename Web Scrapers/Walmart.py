@@ -2,7 +2,8 @@
 Walmart Scraper
 '''
 
-# python scraper_walmart.py
+# This scraper extracts the .json file that holds the product information and exports the file to a .csv
+# As a result, it's just Request and Output, no Parse.
 
 import requests
 import json
