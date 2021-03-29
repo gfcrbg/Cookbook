@@ -11,7 +11,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 main_list = []
 
 def requestBase():
-    x = 1
+    x = 1 # Enter page number
     base_url = f'https://www.qfc.com/pdp-sitemap/qfc-product-details-sitemap-{x}.xml'
     base_r = requests.get(base_url, headers=headers)
     base_soup = BeautifulSoup(base_r.content, 'lxml')
@@ -45,7 +45,7 @@ def parse(articles):
         main_list.append(product)
     return
 
-
+# for loop that crawls through each URL on the targeted sitemap
 links = requestBase().find_all('loc')[11:12]
 for link in links:
     count = links.index(link) + 1
@@ -57,10 +57,10 @@ for link in links:
     articles = soup.find_all('div', class_= 'ProductDetails')
     parse(articles)
 
-
+# exports main_list to .csv file
 def output():
     df = pd.DataFrame(main_list)
-    df.to_csv('qfc-test2.csv', index=False)
+    df.to_csv('qfc.csv', index=False)
 
 
 output()
