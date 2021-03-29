@@ -4,6 +4,7 @@ Walmart Scraper
 
 # This scraper extracts the .json file that holds the product information and exports the file to a .csv
 # As a result, it's just Request and Output, no Parse.
+# This web scraper will require you to download and install Postman.
 
 import requests
 import json
