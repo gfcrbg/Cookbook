@@ -2,6 +2,7 @@
 tutorial e-commerce 
 
 scrapes a mock e-commerce page as a tutorial
+use as a sandbox
 '''
 
 import requests
