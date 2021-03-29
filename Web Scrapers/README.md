@@ -49,4 +49,4 @@ Data interchange format.
 
 ###### Other:
 - [What's My User Agent](http://whatsmyuseragent.org/)  
-Use this to fetch your header.  You'll need this to make requsts.
+Use this to fetch your header.  You'll need this to make requests.
