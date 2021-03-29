@@ -1,5 +1,5 @@
 # Web Scrapers
-A compilation of web scraping scripts that can be snipped, templated, or modified.
+A compilation of web scraping code that can be snipped, templated, or modified.
 
 #
 ### Fundamentals  
@@ -47,3 +47,6 @@ Offers time-related functions.
 - [JSON](https://docs.python.org/3/library/json.html)  
 Data interchange format.
 
+###### Other:
+- [What's My User Agent](http://whatsmyuseragent.org/)  
+Use this to fetch your header.  You'll need this to make requsts.
