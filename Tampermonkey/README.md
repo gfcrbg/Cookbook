@@ -14,15 +14,15 @@ Per Wikipedia:
 ### Installation
 
 ##### 1. Download  
-Download the extension from the Tampermonky [website](https://www.tampermonkey.net/).  
+* Download the extension from the Tampermonky [website](https://www.tampermonkey.net/).  
 
 ##### 2. Create Userscript  
-Click on the extension's icon.    
-A drop-down menu will appear.  
-Select Create a new script...
+* Click on the extension's icon.    
+* A drop-down menu will appear.  
+* Select *Create a new script...*
 
 ##### 3. Copy/Paste Shopper Qno  
-Copy the Shopper Qno script.
-Paste the script in the <New userscript> box.  
-Click on File.  
-Select Save.
+* Copy the Shopper Qno script.
+* Paste the script in the **<New userscript>** box.  
+* Click on *File*.  
+* Select *Save*.
