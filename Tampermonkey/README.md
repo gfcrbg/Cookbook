@@ -23,6 +23,6 @@ Per Wikipedia:
 
 ##### 3. Copy/Paste Shopper Qno  
 * Copy the Shopper Qno script.
-* Paste the [script](https://raw.githubusercontent.com/gfcrbg/Cookbook/master/Tampermonkey/Shopper%20Qno.js) in the **New userscript** box.  
+* Paste the [script](https://raw.githubusercontent.com/gfcrbg/Cookbook/master/Tampermonkey/Shopper%20Qno.js) in the **New userscript** box, replacing the default text.
 * Click on *File*.  
 * Select *Save*.
