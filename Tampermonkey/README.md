@@ -23,6 +23,6 @@ Per Wikipedia:
 
 ##### 3. Copy/Paste Shopper Qno  
 * Copy the Shopper Qno script.
-* Paste the script in the **<New userscript>** box.  
+* Paste the script in the **New userscript** box.  
 * Click on *File*.  
 * Select *Save*.
