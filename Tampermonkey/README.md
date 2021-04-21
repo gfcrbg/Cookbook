@@ -17,8 +17,7 @@ Per Wikipedia:
 * Download the extension from the Tampermonky [website](https://www.tampermonkey.net/).  
 
 ##### 2. Create Userscript  
-* Click on the extension's icon.    
-* A drop-down menu will appear.  
+* Click on the extension's icon.     
 * Select *Create a new script...*
 
 ##### 3. Copy/Paste Shopper Qno  
