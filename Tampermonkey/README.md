@@ -21,7 +21,7 @@ Per Wikipedia:
 * Select *Create a new script...*
 
 ##### 3. Copy/Paste Shopper Qno  
-* Copy the Shopper Qno script.
-* Paste the [script](https://raw.githubusercontent.com/gfcrbg/Cookbook/master/Tampermonkey/Shopper%20Qno.js) in the **New userscript** box, replacing the default text.
+* Copy the Shopper Qno [script](https://raw.githubusercontent.com/gfcrbg/Cookbook/master/Tampermonkey/Shopper%20Qno.js).
+* Paste the script in the **New userscript** box, replacing the default text.
 * Click on *File*.  
 * Select *Save*.
