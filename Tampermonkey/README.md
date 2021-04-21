@@ -12,7 +12,10 @@ Per Wikipedia:
 
 #  
 ### What is Shopper Qno?  
-Shopper Qno is the name of a userscript that allows QIDs to appear on the scorecard in review [view](https://chi01pap002files.storage.live.com/y4pxR2Txuanv8F0U6OsjY4MSgdpXrfFuIoPv7kaC08_sB5afoOEXwWNan7oSTMeT0dQmelZzasXqxtPtpDQ07UCxr8xEPBFWWuKB8ajSjgRnw-oC0VgL4Iq5SlpGw6NSZNn3Sz_S19FObsmmXVKi6-O74mZa4KqNinFI_p_IpFa3nkh1iWsdGW-OYAYUepnvvXIjHHMgPqn27O9pv3xtySDPyIk_nnie4R0CG0l68Wa9g8/Shopper_Qno_Example.JPG?psid=1&width=450&height=189).  
+Shopper Qno is the name of a userscript that allows QIDs to appear on the scorecard in review view.  
+
+![](https://user-images.githubusercontent.com/47260227/115626588-5565f600-a2c3-11eb-8d06-2896e75312a7.png)
+
 
 
 
