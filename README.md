@@ -5,7 +5,7 @@ A compendium of code snippets, resources, and information for programming.
 ### RuleZ Test Environments
 
 - UAT
-- Create a scorecard in 'Test Envrion (RuleZ)'
+- Create a scorecard in 'Test Environment'
 - Utilize the current scorecard template 'Test Environ (RuleZ): Question Formats Sandbox'.
 
 #   
