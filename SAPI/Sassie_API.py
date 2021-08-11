@@ -1,4 +1,4 @@
-# 0TEP 1: Authentication
+# STEP 1: Authentication
 # Run this code block to generate an access token.
 # An access token is valid for 1 hour.
 
