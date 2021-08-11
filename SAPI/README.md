@@ -3,7 +3,7 @@
 [Documentation](https://www.sassieshop.com/2mysteryshopinc/sapi/docs/)  
 [Client Version](https://www.sassieshop.com/2mysteryshopinc/sapi/client/docs/)  
 <br>
-This notebook utilizes the following:  
+This code utilizes the following:  
 
 
 *   [Python](https://www.w3schools.com/python/default.asp)  
