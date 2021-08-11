@@ -2,9 +2,9 @@
 
 [Documentation](https://www.sassieshop.com/2mysteryshopinc/sapi/docs/)  
 [Client Version](https://www.sassieshop.com/2mysteryshopinc/sapi/client/docs/)  
-<br>
-[Schema](https://www.sassieshop.com/2mysteryshopinc/sapi/images/schema.png?t=1623072626) 
-<br>
+
+[Schema](https://www.sassieshop.com/2mysteryshopinc/sapi/images/schema.png?t=1623072626)  
+
 This code utilizes the following:  
 
 
