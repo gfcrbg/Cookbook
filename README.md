@@ -21,6 +21,10 @@ These websites offer free guides, tutorials, and examples:
 
 [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) 
 
+**HTML Viewer**  
+View HTML output in a browser.  Free.  
+[Code Beautify](https://codebeautify.org/htmlviewer/)
+
 #
 ### Markdown
 
