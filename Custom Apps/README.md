@@ -6,3 +6,7 @@
 
 [Design](https://drive.google.com/file/d/18zCmcBQS_OaO5Zw0WBO2Z_FlRIyZIZfj/view?usp=sharing)
 
+#### Script  
+
+Source documents for the column chart used in the script.  
+[Google Charts](https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/columnchart.html)
