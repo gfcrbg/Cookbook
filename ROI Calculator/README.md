@@ -10,6 +10,10 @@
 
 #### Script  
 
+[HTML](https://www.w3schools.com/html/default.asp)  
+
+[JavaScript](https://www.w3schools.com/js/default.asp)
+
 Source documents for the column chart used in the script.  
 [Google Charts](https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/columnchart.html)
 
