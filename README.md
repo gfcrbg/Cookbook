@@ -24,7 +24,7 @@ These websites offer free guides, tutorials, and examples:
 **HTML Viewer**  
 View HTML output in a browser.  Free.
 
-[Code Beautify](https://codebeautify.org/htmlviewer/)
+[HTML Online Viewer](https://html.onlineviewer.net/)
 
 #
 ### Markdown
