@@ -12,3 +12,6 @@
 
 Source documents for the column chart used in the script.  
 [Google Charts](https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/columnchart.html)
+
+Source for the PDF generation.  
+[Stack Overflow](https://stackoverflow.com/questions/17293135/download-a-div-in-a-html-page-as-pdf-using-javascript)
