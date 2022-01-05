@@ -31,5 +31,10 @@ On hover, tooltip appears.
 
 
 ### Popup Tooltip
-On click, tooltip pops up.
+On click, tooltip pops up.  
+
+
+### Modal
+On button click, a modal, that displays content, appears.  
+User can click off of modal to make the modal disappear.
 
