@@ -23,5 +23,13 @@ On button click, allows the user to determine if the month of report date and sh
 
 
 ### Week Number Calculator
-Calculates the week number.
+Calculates the week number.  
+
+
+### Hover Tooltip
+On hover, tooltip appears.  
+
+
+### Popup Tooltip
+On click, tooltip pops up.
 
