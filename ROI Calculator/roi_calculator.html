@@ -2,11 +2,64 @@
 <html>
 
 <head>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
 </head>
+
+<style>
+
+/* Hover tooltip */
+
+    /* Tooltip container */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+    
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 240px;
+      background-color: #ffffff;
+      color: #000000;
+      text-align: center;
+      border-radius: 0px;
+      border: 1px solid #16A0DB;
+      border-width: 5px;
+      padding: 5px 1;
+      font-size: 12px;
+      font-family: Helvetica;
+      
+      
+      /* Position of the tooltip */
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+    
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      border-width: 2px;
+    }
+
+h2 {
+    font-family: Helvetica;
+}
+
+form {
+    font-family: Helvetica;
+}
+
+</style>
 
 <body>
 
@@ -24,7 +77,7 @@ User enters data that will plug into calculation formula upon button click. -->
     <label for="total_locations">Number of TOTAL locations:</label> <input type="number" id="total_locations" name="total_locations" value="">
     <br>
     <br>
-    <label for="A_locations">Number of A locations:</label> <input type="number" id="A_locations" name="A_locations" value="">
+    <label for="A_locations">Number of A locations:</label> <input type="number" id="A_locations" name="A_locations" value=""> <div class="tooltip"> i<span class="tooltiptext">This can be a percentage of total or actual whole number of A locations (Top Tier Stores).</span></div>
     <br>
     <br>
     <label for="B_locations">Number of B locations:</label> <input type="number" id="B_locations" name="B_locations" value="">
@@ -77,9 +130,9 @@ User enters data that will plug into calculation formula upon button click. -->
 
 </form>
 
-<br>
-<br>
-<div id="myChart" style="width:100%; max-width:700px; height:600px;"></div>
+    <br>
+    <br>
+    <div id="myChart" style="width:100%; max-width:700px; height:600px;"></div>
 </div>
 
     <script>
