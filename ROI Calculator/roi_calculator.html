@@ -51,13 +51,32 @@
       border-width: 2px;
     }
 
-h2 {
-    font-family: Helvetica;
-}
+    h1.RBG {
+        font-family: Helvetica;
+        font-size: 40px;
+        color: #16A0DB;
+        display: inline-block;
+        padding-right: 5px;
+    }
 
-form {
-    font-family: Helvetica;
-}
+    h2.ROI_Calculator {
+        font-family: Helvetica;
+        display: inline-block;
+    }
+
+    h1, h2 {
+        display: inline;
+    }
+
+    form {
+        font-family: Helvetica;
+        font-weight: bold;
+        background-color: #16A0DB; 
+    }
+
+    div.canvas_div_pdf {
+        background: fill;
+    }
 
 </style>
 
@@ -69,11 +88,16 @@ form {
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <div class="canvas_div_pdf">
-<h2>ROI Calculator</h2>
+
+   
+<h1 class="RBG">RBG.</h1>
+<h2 class="ROI_Calculator">ROI Calculator</h2>
+    
 
 <!-- Input fields.  
 User enters data that will plug into calculation formula upon button click. --> 
 <form>
+
     <label for="total_locations">Number of TOTAL locations:</label> <input type="number" id="total_locations" name="total_locations" value="">
     <br>
     <br>
@@ -133,6 +157,7 @@ User enters data that will plug into calculation formula upon button click. -->
     <br>
     <br>
     <div id="myChart" style="width:100%; max-width:700px; height:600px;"></div>
+
 </div>
 
     <script>
