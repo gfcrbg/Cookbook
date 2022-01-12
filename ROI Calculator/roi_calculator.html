@@ -140,6 +140,13 @@
         cursor: pointer;
     }
 
+    div.output {
+        margin-right: 65%;
+        padding: 0px;
+        text-align: left;
+
+    }
+
     label.user_field {
         color: #16A0DB;
         background-color: white;
@@ -152,10 +159,23 @@
         margin-left: 10px;
     }
 
-    div.high_rev {
+    span.revenue {
+        display: inline-block;
+        width: 175px;
+        height: 100px;
+        padding: 20px;    
+    }
+
+    div.con_rev {
+        position: inline-block;
         background-color: #16A0DB;
         margin-right: 90%;
-        position: relative;
+    }
+
+    div.base_rev {
+        position: inline-block;
+        background-color: #16A0DB;
+        margin-right: 90%;
     }
 
 </style>
@@ -238,17 +258,14 @@ User enters data that will plug into calculation formula upon button click. -->
     <br>
     <br>
     <br>
-    <br> 
-    <div class="high_rev">$<output class="HCRO" id="high_case_opp" for="calculate"></output><p>High case revenue opportunity:</p></div>
-    $<output class="CRO" id="conservative_opp" for="calculate"></output>
-    $<output class="BRO" id="baseline_opp" for="calculate"></output>
     <br>
-    High case revenue opportunity: 
+    <div class="output">
+        <span class="revenue" style="background-color: #16A0DB;"><p>$</p><output class="HCRO" id="high_case_opp" for="calculate"></output><p>High case revenue opportunity</p></span>
+        <span class="revenue" style="background-color: #4eadd6;"><p>$</p><output class="CRO" id="conservative_opp" for="calculate"></output></output><p>Conservative revenue opportunity</p></span>
+        <span class="revenue" style="background-color: #93cae2;"><p>$</p><output class="BRO" id="baseline_opp" for="calculate"></output><p>Baseline revenue opportunity</p></span>    
+    </div>  
 
-    Conservative revenue opportunity:
-   
-    Baseline revenue opportunity: 
-
+    <br>
     <br>
     <br>
     <div id="myChart" style="width:100%; max-width:700px; height:600px;"></div>
