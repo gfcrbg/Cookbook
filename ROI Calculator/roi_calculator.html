@@ -7,6 +7,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <style>
@@ -17,7 +19,6 @@
     .tooltip {
       position: relative;
       display: inline-block;
-      border-bottom: 1px dotted black;
     }
     
     /* Tooltip text */
@@ -43,6 +44,22 @@
       margin-left: -60px;
     }
 
+    i.material-icons {
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/materialicons/v120/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+        font-family: 'Material Icons';
+        font-size: 15px;
+        color: #16A0DB;
+        padding-top: 1px;
+        line-height: 0;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+    }
     
     /* Show the tooltip text when you mouse over the tooltip container */
     .tooltip:hover .tooltiptext {
@@ -68,14 +85,77 @@
         display: inline;
     }
 
-    form {
+    div.form {
+        padding: 75px;
+        margin-right: 65%;
         font-family: Helvetica;
         font-weight: bold;
-        background-color: #16A0DB; 
+        background-color: #16A0DB;
+        position: relative; 
+    }
+
+    label.form {
+        background-color: white;
+        padding: 5px;
+    }
+
+    input.total_location {
+        background-color: #9ed9f3;
+        border: transparent;
+        margin-left: 25px;
+    }
+
+    input.location {
+        background-color: #9ed9f3;
+        border: transparent;
+        margin-left: 65px;
+    }
+
+    input.revenue {
+        background-color: #9ed9f3;
+        border: transparent;
+        margin-left: 25px;
     }
 
     div.canvas_div_pdf {
         background: fill;
+    }
+
+    div.buttons {
+        background-color: white;
+    }
+
+    .button {
+        background-color: #16A0DB;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    label.user_field {
+        color: #16A0DB;
+        background-color: white;
+        padding: 5px;
+    }
+
+    input.user_info {
+        background-color: white;
+        border: transparent;
+        margin-left: 10px;
+    }
+
+    div.high_rev {
+        background-color: #16A0DB;
+        margin-right: 90%;
+        position: relative;
     }
 
 </style>
@@ -97,26 +177,33 @@
 <!-- Input fields.  
 User enters data that will plug into calculation formula upon button click. --> 
 <form>
+    <div class="form">
 
-    <label for="total_locations">Number of TOTAL locations:</label> <input type="number" id="total_locations" name="total_locations" value="">
+    <label class="form" for="total_locations">NUMBER OF TOTAL LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="total_location" type="number" id="total_locations" name="total_locations" value=""></label>
     <br>
     <br>
-    <label for="A_locations">Number of A locations:</label> <input type="number" id="A_locations" name="A_locations" value=""> <div class="tooltip"> i<span class="tooltiptext">This can be a percentage of total or actual whole number of A locations (Top Tier Stores).</span></div>
+    <br>
+    <label class="form" for="A_locations">NUMBER OF A LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">This can be a percentage of total or actual whole number of A locations (Top Tier Stores).</span></div> <input class="location" type="number" id="A_locations" name="A_locations" value=""></label>
     <br>
     <br>
-    <label for="B_locations">Number of B locations:</label> <input type="number" id="B_locations" name="B_locations" value="">
+    <br>
+    <label class="form" for="B_locations">NUMBER OF B LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="B_locations" name="B_locations" value=""></label> 
     <br>
     <br>
-    <label for="C_locations">Number of C locations:</label> <input type="number" id="C_locations" name="C_locations" value="">
+    <br>
+    <label class="form" for="C_locations">NUMBER OF C LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="C_locations" name="C_locations" value=""></label> 
     <br>
     <br>
-    <label for="A_revenue">A location annual revenue: $</label> <input type="number" id="A_revenue" name="A_revenue" value="">
+    <br>
+    <label class="form" for="A_revenue">A LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="A_revenue" name="A_revenue" value=""></label> 
     <br>
     <br>
-    <label for="B_revenue">B location annual revenue: $</label> <input type="number" id="B_revenue" name="B_revenue" value="">
+    <br>
+    <label class="form" for="B_revenue">B LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="B_revenue" name="B_revenue" value=""></label> 
     <br>
     <br>
-    <label for="C_revenue">C location annual revenue: $</label> <input type="number" id="C_revenue" name="C_revenue" value="">
+    <br>
+    <label class="form" for="C_revenue">C LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="C_revenue" name="C_revenue" value=""></label> 
 
     <!-- Input fields.
     User enters name and email. --> 
@@ -124,35 +211,43 @@ User enters data that will plug into calculation formula upon button click. -->
     <br>
     <br>
     <br>
-    <label for="user_name">Name:</label> <input type="text" id="user_name" name="user_name">    
-    <label for="user_email">Email:</label> <input type="email" id="user_email" name="user_email">
-
+    <label class="user_field" for="user_name">NAME <input class="user_info" type="text" id="user_name" name="user_name"></label> 
+    <label class="user_field" for="user_email">EMAIL <input class="user_info" type="email" id="user_email" name="user_email"></label> 
+    </div>
+    
+    <div class="buttons">  
     <!-- Button click, execute ROI calculation with data from user input fields above. --> 
     <br>
     <br>
     <br>
-    <br>  
+    <br>
     <!-- Button click, execute named arithmetic function. --> 
-    <input type="button" id="calculate" name="calculate" value="Calculate ROI" onclick="arithmetic()">
+    <input class="button" type="button" id="calculate" name="calculate" value="CALCULATE RETURN ON INVESTMENT" onclick="arithmetic()">
     <!-- Button click, execute function to reset all fields to 0. --> 
-    <input type="reset" id="clear" name="clear" value="Reset">
+    <input class="button" type="reset" id="clear" name="clear" value="RESET">
     <!-- Button click, execute function to copy data to pdf file. --> 
-    <input class="canvas_div_pdf" type="button" id="export" name="export" value="PDF" onclick="getPDF()">
+    <input class="button" class="canvas_div_pdf" type="button" id="export" name="export" value="PDF" onclick="getPDF()">
+    </div>
+
+</form>
+
+    
+
 
     <!-- ROI calculator output. -->
     <br>
     <br>
     <br>
     <br> 
-    High case revenue opportunity: $<output id="high_case_opp" for="calculate"></output>
+    <div class="high_rev">$<output class="HCRO" id="high_case_opp" for="calculate"></output><p>High case revenue opportunity:</p></div>
+    $<output class="CRO" id="conservative_opp" for="calculate"></output>
+    $<output class="BRO" id="baseline_opp" for="calculate"></output>
     <br>
-    <br>
-    Conservative revenue opportunity: $<output id="conservative_opp" for="calculate"></output>
-    <br>
-    <br>
-    Baseline revenue opportunity: $<output id="baseline_opp" for="calculate"></output>
+    High case revenue opportunity: 
 
-</form>
+    Conservative revenue opportunity:
+   
+    Baseline revenue opportunity: 
 
     <br>
     <br>
