@@ -99,22 +99,46 @@
         padding: 5px;
     }
 
-    input.total_location {
+    input.total_location:invalid {
         background-color: #9ed9f3;
         border: transparent;
         margin-left: 25px;
+        font-family: Helvetica;
     }
 
-    input.location {
+    input.total_location:valid {
+        background-color: white;
+        border: transparent;
+        margin-left: 25px;
+        font-family: Helvetica;
+    }
+
+    input.location:invalid {
         background-color: #9ed9f3;
         border: transparent;
         margin-left: 65px;
+        font-family: Helvetica;
     }
 
-    input.revenue {
+    input.location:valid {
+        background-color: white;
+        border: transparent;
+        margin-left: 65px;
+        font-family: Helvetica;
+    }
+
+    input.revenue:invalid {
         background-color: #9ed9f3;
         border: transparent;
         margin-left: 25px;
+        font-family: Helvetica;
+    }
+
+    input.revenue:valid {
+        background-color: white;
+        border: transparent;
+        margin-left: 25px;
+        font-family: Helvetica;
     }
 
     div.canvas_div_pdf {
@@ -140,7 +164,7 @@
         cursor: pointer;
     }
 
-    div.output {
+    div.output_boxes {
         margin-right: 65%;
         padding: 0px;
         text-align: left;
@@ -166,16 +190,17 @@
         padding: 20px;    
     }
 
-    div.con_rev {
-        position: inline-block;
-        background-color: #16A0DB;
-        margin-right: 90%;
+    p.dollar {
+        color: white;
+        font-family: Helvetica;
+        font-weight: bold;
     }
 
-    div.base_rev {
-        position: inline-block;
-        background-color: #16A0DB;
-        margin-right: 90%;
+    p.output_text {
+        background-color: white;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 14px;
     }
 
 </style>
@@ -199,31 +224,31 @@ User enters data that will plug into calculation formula upon button click. -->
 <form>
     <div class="form">
 
-    <label class="form" for="total_locations">NUMBER OF TOTAL LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="total_location" type="number" id="total_locations" name="total_locations" value=""></label>
+    <label class="form" for="total_locations">NUMBER OF TOTAL LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="total_location" type="number" id="total_locations" name="total_locations" value="" required></label>
     <br>
     <br>
     <br>
-    <label class="form" for="A_locations">NUMBER OF A LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">This can be a percentage of total or actual whole number of A locations (Top Tier Stores).</span></div> <input class="location" type="number" id="A_locations" name="A_locations" value=""></label>
+    <label class="form" for="A_locations">NUMBER OF A LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">This can be a percentage of total or actual whole number of A locations (Top Tier Stores).</span></div> <input class="location" type="number" id="A_locations" name="A_locations" value="" required></label>
     <br>
     <br>
     <br>
-    <label class="form" for="B_locations">NUMBER OF B LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="B_locations" name="B_locations" value=""></label> 
+    <label class="form" for="B_locations">NUMBER OF B LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="B_locations" name="B_locations" value="" required></label> 
     <br>
     <br>
     <br>
-    <label class="form" for="C_locations">NUMBER OF C LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="C_locations" name="C_locations" value=""></label> 
+    <label class="form" for="C_locations">NUMBER OF C LOCATIONS <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="location" type="number" id="C_locations" name="C_locations" value="" required></label> 
     <br>
     <br>
     <br>
-    <label class="form" for="A_revenue">A LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="A_revenue" name="A_revenue" value=""></label> 
+    <label class="form" for="A_revenue">A LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="A_revenue" name="A_revenue" value="" required></label> 
     <br>
     <br>
     <br>
-    <label class="form" for="B_revenue">B LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="B_revenue" name="B_revenue" value=""></label> 
+    <label class="form" for="B_revenue">B LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="B_revenue" name="B_revenue" value="" required></label> 
     <br>
     <br>
     <br>
-    <label class="form" for="C_revenue">C LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="C_revenue" name="C_revenue" value=""></label> 
+    <label class="form" for="C_revenue">C LOCATION ANNUAL REVENUE <div class="tooltip"> <i class="material-icons">info</i><span class="tooltiptext">tooltip text</span></div> <input class="revenue" type="number" id="C_revenue" name="C_revenue" value="" required></label> 
 
     <!-- Input fields.
     User enters name and email. --> 
@@ -259,10 +284,10 @@ User enters data that will plug into calculation formula upon button click. -->
     <br>
     <br>
     <br>
-    <div class="output">
-        <span class="revenue" style="background-color: #16A0DB;"><p>$</p><output class="HCRO" id="high_case_opp" for="calculate"></output><p>High case revenue opportunity</p></span>
-        <span class="revenue" style="background-color: #4eadd6;"><p>$</p><output class="CRO" id="conservative_opp" for="calculate"></output></output><p>Conservative revenue opportunity</p></span>
-        <span class="revenue" style="background-color: #93cae2;"><p>$</p><output class="BRO" id="baseline_opp" for="calculate"></output><p>Baseline revenue opportunity</p></span>    
+    <div class="output_boxes">
+        <span class="revenue" style="background-color: #16A0DB;"><p class="dollar">$</p><output class="HCRO" id="high_case_opp" for="calculate"></output><p class="output_text">HIGH CASE REVENUE OPPORTUNITY</p></span>
+        <span class="revenue" style="background-color: #4eadd6;"><p class="dollar">$</p><output class="CRO" id="conservative_opp" for="calculate"></output></output><p class="output_text">CONSERVATIVE REVENUE OPPORTUNITY</p></span>
+        <span class="revenue" style="background-color: #93cae2;"><p class="dollar">$</p><output class="BRO" id="baseline_opp" for="calculate"></output><p class="output_text">BASELINE REVENUE OPPORTUNITY</p></span>    
     </div>  
 
     <br>
@@ -321,7 +346,7 @@ User enters data that will plug into calculation formula upon button click. -->
             return a, b, c
         };
 
-        function getPDF(){
+        function getPDF() {
 
             var HTML_Width = $(".canvas_div_pdf").width();
             var HTML_Height = $(".canvas_div_pdf").height();
@@ -353,6 +378,7 @@ User enters data that will plug into calculation formula upon button click. -->
             pdf.save("RBG_ROI_Results.pdf");
             });
         }
+
         </script>
 
 </body>
