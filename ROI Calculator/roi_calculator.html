@@ -340,20 +340,33 @@ User enters data that will plug into calculation formula upon button click. -->
         /* Column Chart */
         
             var data = google.visualization.arrayToDataTable([
-            ['Opp','', {role: 'annotation'}],
-            ['', a, 'HCRO'],
-            ['', b, 'CRO'],
-            ['', c, 'BRO']
+            ['Opp','', {role: 'annotation'}, {role: 'style'}],
+            ['', a, 'HCRO', 'color: #16A0DB'],
+            ['', b, 'CRO', 'color: #4eadd6'],
+            ['', c, 'BRO', 'color: #93cae2']
             ]);
         
             var options = { 
                 legend: { position: "none" },
                 is3D: true,
                 hAxis:{
-                    title:'Revenue Opportunity'
+                    title:'REVENUE OPPORTUNITY',
+                    titleTextStyle: {
+                        color: "black", 
+                        bold: true,
+                        italic: false,
+                        fontName: "Helvetica",
+                        fontSize: 30,
+                    }
                 },
                 vAxis:{
-                    format: '$###,###,###,###'
+                    format: '$###,###,###,###',
+                    textStyle: {
+                        color: "black",
+                        bold: true,
+                        italic: false,
+                        fontName: "Helvetica",
+                    }
                 }
             };
         
