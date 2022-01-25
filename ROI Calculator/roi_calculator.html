@@ -164,13 +164,6 @@
         cursor: pointer;
     }
 
-    div.output_boxes {
-        margin-right: 65%;
-        padding: 0px;
-        text-align: left;
-
-    }
-
     label.user_field {
         color: #16A0DB;
         background-color: white;
@@ -183,24 +176,42 @@
         margin-left: 10px;
     }
 
-    span.revenue {
-        display: inline-block;
-        width: 175px;
-        height: 100px;
-        padding: 20px;    
-    }
-
     p.dollar {
         color: white;
         font-family: Helvetica;
         font-weight: bold;
+        padding: 15px;
     }
 
-    p.output_text {
-        background-color: white;
+    p.output_labels {
+        color: black;
         font-family: Helvetica;
         font-weight: bold;
         font-size: 14px;
+
+    }
+
+    output.output_amount {
+        color: white;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .grid {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 217px 217px 217px;
+    }
+
+    .grid > div {
+    height: 100px;
+    background: black;
+    min-width: 5px;
+    }
+
+    body {
+    margin: 1px;
     }
 
 </style>
@@ -284,16 +295,22 @@ User enters data that will plug into calculation formula upon button click. -->
     <br>
     <br>
     <br>
-    <div class="output_boxes">
-        <span class="revenue" style="background-color: #16A0DB;"><p class="dollar">$</p><output class="HCRO" id="high_case_opp" for="calculate"></output><p class="output_text">HIGH CASE REVENUE OPPORTUNITY</p></span>
-        <span class="revenue" style="background-color: #4eadd6;"><p class="dollar">$</p><output class="CRO" id="conservative_opp" for="calculate"></output></output><p class="output_text">CONSERVATIVE REVENUE OPPORTUNITY</p></span>
-        <span class="revenue" style="background-color: #93cae2;"><p class="dollar">$</p><output class="BRO" id="baseline_opp" for="calculate"></output><p class="output_text">BASELINE REVENUE OPPORTUNITY</p></span>    
-    </div>  
+     
+    <div class="grid">
+        <div style="background-color: #16A0DB;"><p class="dollar">$ <output class="output_amount" id="high_case_opp" for="calculate"></output></p></div>
+        <div style="background-color: #4eadd6;"><p class="dollar">$ <output class="output_amount" id="conservative_opp" for="calculate"></output></p></div>
+        <div style="background-color: #93cae2;"><p class="dollar">$ <output class="output_amount" id="baseline_opp" for="calculate"></output></p></div>
+        <div style="background-color: white;"><p class="output_labels">HIGH CASE REVENUE OPPORTUNITY</p></div>
+        <div style="background-color: white;"><p class="output_labels">CONSERVATIVE REVENUE OPPORTUNITY</p></div>
+        <div style="background-color: white;"><p class="output_labels">BASELINE REVENUE OPPORTUNITY</p></div>
+    </div>
 
     <br>
     <br>
     <br>
-    <div id="myChart" style="width:100%; max-width:700px; height:600px;"></div>
+    <div id="myChart" 
+    style="width:100%; max-width:700px; height:600px;">
+    </div>
 
 </div>
 
