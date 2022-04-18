@@ -1,3 +1,12 @@
+'''
+Scrapes the location of all Laredo Taco Company restuarants.
+Gathers the following data:
+- Store Number
+- Address
+- Phone Number
+- Hours
+'''
+
 # python ltc_locations.py
 
 import requests
