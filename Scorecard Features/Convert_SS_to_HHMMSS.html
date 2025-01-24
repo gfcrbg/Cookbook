@@ -1,0 +1,24 @@
+<script>
+function formatTime() {
+  const seconds = parseInt(document.getElementById('seconds').value);
+  const date = new Date(seconds * 1000);
+  const hh = date.getUTCHours().toString().padStart(2, '0');
+  const mm = date.getUTCMinutes().toString().padStart(2, '0');
+  const ss = date.getUTCSeconds().toString().padStart(2, '0');
+  document.getElementById('time').value = `${hh}:${mm}:${ss}`;
+}
+</script>
+
+
+
+Enter seconds: 
+<br>
+<input type="number" id="seconds" name="">
+<br>
+<br>
+<button type="button" onclick="formatTime()">Convert</button>
+<br>
+<br>
+HH:MM:SS
+<br>
+<input type="text" id="time" name="" readonly> [add a button that copies to clipboard?]
