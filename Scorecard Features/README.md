@@ -36,5 +36,8 @@ On click, tooltip pops up.
 
 ### Modal
 On button click, a modal, that displays content, appears.  
-User can click off of modal to make the modal disappear.
+User can click off of modal to make the modal disappear.  
+
+### Convert Seconds to HH:MM:SS
+On button click, convert seconds to hours : minutes : seconds format.
 
