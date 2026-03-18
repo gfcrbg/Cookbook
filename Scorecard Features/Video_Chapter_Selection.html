@@ -7,4 +7,34 @@ Enter's video playback timestamp.
 Clicks button 'Generate Link'.
 
 Output is a link, in a text field, that directs to the indicated playback time.
+
+Refer to the following scorecard as an example:  Ridley's Food Corporation: Ridley's Video 2026 (5457)
+
+A = QID of video link
+B = QID of time of day
+C = QID of video link ouput
 */
+
+
+<button type="button" onclick="videoPlayback_Produce()">Generate Link</button>    
+        
+    <script>
+    
+    function videoPlayback_Produce() {
+        // Grab input values
+        var inputField1 = document.querySelector('.inputA').value;
+        var inputField2 = document.querySelector('.minutesB').value;
+        var inputField3 = document.querySelector('.secondsB').value;
+        var inputField4 = document.querySelector('.inputC').value;
+           
+        // Concatenate and assign result
+        var concatResult = inputField1 + "#t=" + inputField2 + "m" + "0" + inputField3
+        + "s";
+         
+         var playback = document.querySelector('.inputC').value = concatResult;
+        
+         // Opens new window to playback link
+         // window.open(playback);
+   
+    }
+    </script>
